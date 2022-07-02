@@ -1,0 +1,42 @@
+{
+  "name": "bt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^3.0.1",
+    "ant-design-vue": "^3.2.5",
+    "axios": "^0.27.2",
+    "core-js": "^3.8.3",
+    "echarts": "^5.3.2",
+    "element-plus": "^2.2.4",
+    "highcharts": "^10.1.0",
+    "highcharts-vue": "^1.4.0",
+    "pinia": "^2.0.14",
+    "vue": "^3.2.13",
+    "vue-axios": "^3.4.1",
+    "vue-echarts": "^6.0.3",
+    "vue-router": "^4.0.3",
+    "vuejs3-highcharts": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "less": "^4.1.2",
+    "less-loader": "^11.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

@@ -57,7 +57,7 @@ import router from '@/router';
 import { message } from 'ant-design-vue'
 
 
-
+const studentStore = useStore()
 const classStore = useStore()
 // classStore.get_data_class()
 const { listClass } = storeToRefs(classStore)
@@ -147,8 +147,8 @@ const search = () => {
 
 }
 const goToCpn = (tenLop) => {
-  classStore.filterStudent(tenLop)
   router.push({ path: '/danh_sach_hoc_sinh' })
+  studentStore.filterStudent(tenLop)  
 }
 
 
